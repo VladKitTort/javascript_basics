@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+}
+
+.carousel-box{
+    border: 1px solid black;
+    width: 600px;
+    height: 600px;
+    margin: 50px auto;
+    position: relative;
+}
+
+.carousel {
+    width: 600px;
+    height: 600px;
+    overflow: hidden;
+    position: relative;
+}
+
+.carousel img {
+    width: 600px;
+    height: 600px;
+    position: absolute;
+    opacity: 1;
+    transition: all ease 1s;
+}
+
+.carousel .opacity0 {
+    opacity: 0;
+}
+
+.container-buttons {
+    display: flex;
+    justify-content: space-between;
+    height: 30px;
+    width: 100%;
+    position: absolute;
+    top: 75px;
+}
+
+.carousel-left {
+    width: 55px;
+    height: 55px;
+    background: url("https://img.icons8.com/cotton/64/000000/circled-left--v1.png");
+    background-size: cover; 
+    background-position: 0 0; 
+}
+
+.carousel-right {
+    width: 55px;
+    height: 55px;
+    background: url("https://img.icons8.com/cotton/64/000000/circled-right--v2.png");
+    background-size: cover;
+    background-position: 0 0;
+}
